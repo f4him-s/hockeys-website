@@ -40,14 +40,14 @@
     </style>
 </head>
 
-<body>
-    <header>
+<body class="font-manrope">
+    <header class="w-full lg:w-[1170px] mx-auto">
         <!-- Navigation -->
-        <nav>
-            <div class="navbar bg-base-100">
+        <nav class="my-3 lg:my-12">
+            <div class="navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div tabindex="0"  class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -55,41 +55,43 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                            <li><a class="hover:bg-red-primary hover:text-white">Home</a></li>
+                            <li><a class="hover:bg-red-primary hover:text-white">About</a></li>
+                            <li><a class="hover:bg-red-primary hover:text-white">Pages</a></li>
+                            <li><a class="hover:bg-red-primary hover:text-white">Blog</a></li>
+                            <li><a class="hover:bg-red-primary hover:text-white">Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">daisyUI</a>
+                    <a class="text-black-txt text-2xl lg:text-4xl font-extrabold">
+                        <span>Hockey<span class="text-red-primary">'</span>s</span>
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <ul class="menu menu-horizontal text-base px-1">
+                        <li><a class="text-#424247 hover:text-red-primary">Home</a></li>
+                        <li><a class="text-#424247 hover:text-red-primary">About</a></li>
+                        <li><a class="text-#424247 hover:text-red-primary">Pages</a></li>
+                        <li><a class="text-#424247 hover:text-red-primary">Blog</a></li>
+                        <li><a class="text-#424247 hover:text-red-primary">Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn">Button</a>
+                    <a href="" class="mr-6 hidden lg:block">
+                        <i class="text-xl hover:text-red-primary fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <button class="text-white px-4 py-2 lg:px-6 lg:py-4 bg-red-primary rounded-lg lg:text-xl font-bold">Get Ticket</button>
                 </div>
             </div>
         </nav>
+        <!-- Slider -->
+        <div>
+            
+        </div>
     </header>
+    <main class="w-full lg:w-[1170px] mx-auto">
+
+    </main>
 
 </body>
 
