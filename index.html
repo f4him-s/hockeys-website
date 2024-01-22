@@ -47,7 +47,7 @@
             <div class="navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0"  class="btn btn-ghost lg:hidden">
+                        <div tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -77,16 +77,91 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a href="" class="mr-6 hidden lg:block">
+                    <a href="" class="mr-6 hidden md:block lg:block">
                         <i class="text-xl hover:text-red-primary fa-solid fa-magnifying-glass"></i>
                     </a>
-                    <button class="text-white px-4 py-2 lg:px-6 lg:py-4 bg-red-primary rounded-lg lg:text-xl font-bold">Get Ticket</button>
+                    <button
+                        class="text-white px-4 py-2 lg:px-6 lg:py-4 bg-red-primary rounded-lg lg:text-xl font-bold">Get
+                        Ticket</button>
                 </div>
             </div>
         </nav>
         <!-- Slider -->
         <div>
-            
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <!-- Slider image -->
+                    <img src="Images/slider-1.png" class="w-full" />
+
+                    <!-- Floating badge desktop-->
+                    <div class="hidden lg:block">
+                        <div
+                            class=" space-y-4 w-[510px] rounded-2xl p-8 bg-black absolute transform -translate-y-8 right-10 bottom-0">
+                            <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                            <p class="text-white/60">Discover the faces behind the fierce competition. Meet the hockey
+                                heroes, learn their stories, and witness their journey.</p>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <div
+                        class="absolute flex justify-center gap-4 transform -translate-y-[10%] lg:justify-start lg:-translate-y-1/2 left-5 right-5 bottom-0 ">
+                        <a href="#slide3"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❮</a>
+                        <a href="#slide2"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider-2.jpg" class="w-full" />
+
+                    <!-- Floating badge desktop-->
+                    <div class="hidden lg:block">
+                        <div
+                            class=" space-y-4 w-[510px] rounded-2xl p-8 bg-black absolute transform -translate-y-8 right-10 bottom-0">
+                            <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                            <p class="text-white/60">Discover the faces behind the fierce competition. Meet the hockey
+                                heroes, learn their stories, and witness their journey.</p>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div
+                        class="absolute flex justify-center gap-4 transform -translate-y-[10%] lg:justify-start lg:-translate-y-1/2 left-5 right-5 bottom-0  ">
+                        <a href="#slide1"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❮</a>
+                        <a href="#slide3"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+
+                    <!-- Floating badge desktop-->
+                    <div class="hidden lg:block">
+                        <div
+                            class=" space-y-4 w-[510px] rounded-2xl p-8 bg-black absolute transform -translate-y-8 right-10 bottom-0">
+                            <h3 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h3>
+                            <p class="text-white/60">Discover the faces behind the fierce competition. Meet the hockey
+                                heroes, learn their stories, and witness their journey.</p>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div
+                        class="absolute flex justify-center gap-4 transform -translate-y-[10%] lg:justify-start lg:-translate-y-1/2 left-5 right-5 bottom-0  ">
+                        <a href="#slide2"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❮</a>
+                        <a href="#slide1"
+                            class="text-white btn btn-circle bg-[#131318] hover:bg-red-primary border-none">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- badge mobile -->
+            <div class=" lg:hidden rounded-2xl p-8 bg-black mt-8">
+                <h3 class="text-[18px] text-white font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-white/60">Discover the faces behind the fierce competition. Meet the hockey
+                    heroes, learn their stories, and witness their journey.</p>
+            </div>
         </div>
     </header>
     <main class="w-full lg:w-[1170px] mx-auto">
